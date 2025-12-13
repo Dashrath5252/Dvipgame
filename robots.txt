@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap link
+Sitemap: https://yonogamez.com/sitemap.xml
+
+# Image crawling
+Allow: /*.jpg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Scripts and styles
+Allow: /*.js$
+Allow: /*.css$
+
+# Disallow private folders
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
